@@ -11,6 +11,7 @@
 
 :root {
     --dark-grey: #545C66;
+    --light-grey: #EAEAEC;
 }
 
 /* FONTS */
@@ -35,7 +36,8 @@
 
 .logo {
     width: 55%;
-    margin-left: 35%;
+    /* Impossible à changer avec Bootstrap : */
+    margin-left: 50% !important;
 }
 
 /* SECTION 1 */
@@ -44,9 +46,8 @@
     padding: 0%;
 }
 
-.section-1 {
-    margin-left: 0%;
-    padding-left: 0%
+.section-1 article {
+    height: 80% !important;
 }
 
 .section-1 h1 {
@@ -60,6 +61,8 @@
     font-family: "Roboto";
     font-size: 20px;
     letter-spacing: 4px;
+    /* Impossible de régler le padding avec bootstrap :  */
+    padding-top: 20% !important;
 }
 
 .section-1 p {
@@ -69,10 +72,14 @@
     margin-bottom: 0%;
 }
 
-.content {
-    background-color: #EAEAEC;
-    height: 80%;
+#section-1-row {
+    background-color: var(--light-grey);
 }
+
+/* .content {
+    background-color: #EAEAEC;
+    height: 100% !important;
+} */
 
 .architecture-img {
     width: 100%;
@@ -92,14 +99,15 @@
 /* SECTION 2 */
 
 .section-2 {
-    padding-bottom: 4%;
+    /* Impossible de régler le padding avec bootstrap :  */
+    padding: 4% !important;
 }
 
 .section-2 p {
     font-family: "Open Sans";
-    font-size: 16px;
-    font-weight: 100;
-    margin-bottom: 0%;
+    font-size: 15px;
+    font-weight: 300!;
+    /* margin-bottom: 0%; */
 }
 
 .section-2 #design {
@@ -111,6 +119,8 @@
     color: var(--dark-grey);
     font-size: 60px;
     font-weight: 100;
+    /* Impossible de régler le padding avec bootstrap :  */
+    padding: 2% !important;
 }
 
 #button-learn-more-2 {
@@ -118,28 +128,74 @@
     border-radius: 0%;
     width: 20%;
     font-weight: 600;
-    padding: 1%;
+    
 }
 
 /* SECTION 3 */
 
 .section-3 #h2-container {
-    height: 35% !important;
+    height: 50% !important;
 }
 
 .section-3 h2 {
     color: white;
     font-size: 48px;
     font-family: "Ubuntu";
+    /* Impossible de régler le padding avec bootstrap :  */
+    padding: 12% !important;
 }
-
-
 
 .section-3 p {
     font-family: "Open Sans";
     font-size: 16px;
+    /* Impossible de régler le padding avec bootstrap :  */
+    padding-left: 10% !important;
 }
 
 .section-3 .container {
     width: 100%;
 }
+
+#section-3-row {
+    margin-top: 10% !important;
+}
+
+/* SECTION 4 */
+
+.section-4 {
+    background-color: black;
+    color: white;
+    height: 550px !important;
+}
+
+#section-4-container {
+    margin-bottom: 5% !important;
+}
+
+.section-4 h2 {
+    font-family: "Ubuntu";
+    font-size: 72px;
+}
+
+.section-4 h3 {
+    font-family: "Roboto";
+}
+
+.section-4 h5 {
+    padding-bottom: 3% !important;
+}
+
+.section-4 p {
+    font-family: "Open Sans";
+    font-size: 16px;
+}
+
+.section-4 img {
+    /* height: 10%; */
+    height: 56px;
+}
+
+#sample-text {
+    padding-top: 3% !important;
+}
+

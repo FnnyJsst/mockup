@@ -13,7 +13,7 @@
  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white p-3">
         <a class="navbar-brand" href="#">
-            <img class="logo" src="/assets/images/Logo.jpg" alt="Logo">
+            <img class="logo"  src="/assets/images/Logo.jpg" alt="Logo">
         </a>
         <div class="collapse navbar-collapse" id="navbarNav">
         </div>
@@ -27,13 +27,13 @@
     <!-- SECTION 1 - ARCHITECTURE-->
     <section class="section-1">
         <div class="container-fluid">
-            <div class="row">
+            <div id = "section-1-row" class="row">
                 <article class="col-md-6">
                     <img class="architecture-img img-fluid" src="/assets/images/32055bb1-ac71-e6e8-6a34-c6d9ea71ce4a.jpg" alt="Architecture Image">
                 </article>
                 <article class="col-md-6">
                     <div class="content">
-                        <h2 class="pt-5">DESIGN AGENCY</h2>
+                        <h2>DESIGN AGENCY</h2>
                         <h1 class="pb-3">Architecture</h1>
                         <p>We value context and history. We question </p>
                         <p>standards and givens. We embrace flaws and </p>
@@ -48,14 +48,17 @@
     <!-- SECTION 2 - THE FUTURE IN MIND-->
     <section class="section-2">
         <div class="container-fluid">
-            <div class="row">
+            <div class="row ">
                 <div class="col col-9 mx-auto text-center" class="text-center">
-                    <p id="design" >WE DESIGN WITH</p>
+                    <p class="pt-2" id="design" >WE DESIGN WITH</p>
                     <h2>The Future in Mind</h2>
-                    <p>An integrated architecture, design, planning and consulting firm — 6000+ professionals networked across 48 offices—providing global reach with</p>
-                    <p>local touch. AGENCY is a collaborative interdisciplinary practice engaging contemporary culture through architecture, urbanism, and advocacy. Our</p>
-                    <p>people collaborate across a network of 24 offices on three continents.</p>
-                    <button id="button-learn-more-2" class="btn btn-white mt-3 p-2 mb-5">LEARN MORE</button>
+                    <!-- <article class="p-container"> -->
+                        <p>An integrated architecture, design, planning and consulting firm — 6000+ professionals networked across 48 offices—providing global reach with</p>
+                        <p>local touch. AGENCY is a collaborative interdisciplinary practice engaging contemporary culture through architecture, urbanism, and advocacy.</p>
+                        <p>Our people collaborate across a network of 24 offices on three continents.</p>
+                    <!-- </article> -->
+                        <button id="button-learn-more-2" class="btn btn-white mt-3 p-2 mb-5">LEARN MORE</button>
+                    
                 </div>
             </div>
         </div>
@@ -75,7 +78,7 @@
                 <div class="row bg-dark" id="h2-container">
                     <h2>We are architects, planners, and designers</h2>
                 </div>
-                <div class="row" >
+                <div class="row" id="section-3-row" >
                 <p>At the core of our practice is the idea that cities are the </p>
                 <p>incubators of our greatest achievements, and the best </p>
                 <p>hope for a sustainable future. We believe that </p> 
@@ -89,41 +92,106 @@
     </section>
 
     <!-- SECTION 4 - MARKETING YOUR HOME-->
-    <section>
-        <h2>Marketing Your Home</h2>
-        <p>The sale of a significant home is truly noteworthy. To represent a home of distinction requires highly-</p>
-        <p>qualified real estate professionals with global reach and local expertise.</p>
+    <section class="section-4">
+        <div class="text-center" id="section-4-container">
+            <h2>Marketing Your Home</h2>
+            <p>The sale of a significant home is truly noteworthy. To represent a home of distinction requires highly-</p>
+            <p>qualified real estate professionals with global reach and local expertise.</p>
+        </div>
 
-        <article>
-            <img>
-            <h3>LEADERSHIP</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
-        <article>
-            <img>
-            <h3>CAREERS</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
-        <article>
-            <img>
-            <h3>PARTNERSHIP</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
-        <article>
-            <img>
-            <h3>ABOUT US</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
-        <article>
-            <img>
-            <h3>QUICKNESS</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
-        <article>
-            <img>
-            <h3>FIX PRICE</h3>
-            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-        </article>
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container-fluid ">
+    <!-- Première ligne -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/leadership.svg" alt="Leadership Image"/>
+                <div class="ms-3">
+                    <h5 class="">LEADERSHIP</h5>
+                    <p class="" id="sample-text">Sample text. Click to select the</p>
+                    <p id="sample-text"> text box. Click again or double </p>
+                    <p id="sample-text">click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/leadership.svg" alt="Leadership Image"/>
+                <div class="ms-3">
+                    <h5 class="">CAREERS</h5>
+                    <p class="" id="sample-text">Sample text. Click to select the</p>
+                    <p id="sample-text"> text box. Click again or double </p>
+                    <p id="sample-text">click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/partnership.svg" alt="Partnership Image"/>
+                <div class="ms-3">
+                    <h5 class="">PARTNERSHIP</h5>
+                    <p class="" id="sample-text">Sample text. Click to select the</p>
+                    <p id="sample-text"> text box. Click again or double </p>
+                    <p id="sample-text">click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Deuxième ligne -->
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/about-us.svg" alt="About Us Image"/>
+                <div class="ms-3">
+                    <h5 class="">ABOUT US</h5>
+                    <p class="">Sample text. Click to select the</p>
+                    <p> text box. Click again or double </p>
+                    <p>click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/quickness.svg" alt="Quickness Image"/>
+                <div class="ms-3">
+                    <h5 class="">QUICKNESS</h5>
+                    <p class="">Sample text. Click to select the</p>
+                    <p> text box. Click again or double </p>
+                    <p>click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="d-flex align-items-start">
+                <img src="/assets/images/fix-price.svg" alt="Fix Price Image"/>
+                <div class="ms-3">
+                    <h5 class="card-title">FIX PRICE</h5>
+                    <p class="">Sample text. Click to select the</p>
+                    <p> text box. Click again or double </p>
+                    <p>click to start editing the text.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+      
+
+        
     </section>
 
     <!-- SECTION 5 - BIG BICTURE-->
