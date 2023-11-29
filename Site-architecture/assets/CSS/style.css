@@ -78,3 +78,16 @@
     width: 42%;
     background-color: var(--dark-grey);
 }
+
+/* SECTION 2 */
+
+.section-2 p {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 100;
+}
+
+#button-learn-more-2 {
+    border: 1px solid black;
+    border-radius: 0%;
+}
