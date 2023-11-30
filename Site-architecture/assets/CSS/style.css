@@ -38,7 +38,19 @@
     src: url("/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
-p {
+h1, h3 {
+    font-family: "Ubuntu";
+}
+
+h2, h4 {
+    font-family: "Roboto";
+}
+
+h5 {
+    font-family: "Playfair Display";
+}
+
+p, h6 {
     font-family: "Open Sans";
 }
 
@@ -64,14 +76,12 @@ p {
     padding-bottom: 10% !important;
 }
 
-.section-1 h1 {
-    font-family: "Ubuntu";
+h1 {
     color: var(--dark-grey);
     font-size: 72px;
 }
 
 .section-1 h2 {
-    font-family: "Roboto";
     font-size: 20px;
     letter-spacing: 4px;
     padding-top: 20% !important;
@@ -118,8 +128,7 @@ p {
     letter-spacing: 10px;
 }
 
-.section-2 h2 {
-    font-family: "Ubuntu";
+.section-2 h3 {
     color: var(--dark-grey);
     font-size: 60px;
     font-weight: 100;
@@ -136,16 +145,15 @@ p {
 
 /* SECTION 3 */
 
-.section-3 h2 {
-    color: white;
+.section-3 h3 {
     font-size: 48px;
-    font-family: "Ubuntu";
     padding: 12% !important;
 }
 
 .section-3 p {
     font-size: 16px;
     padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
 .section-3 .container {
@@ -169,16 +177,11 @@ p {
     margin-left: 10% !important;
 }
 
-.section-4 h2 {
-    font-family: "Ubuntu";
+.section-4 h3 {
     font-size: 72px;
 }
 
-.section-4 h3 {
-    font-family: "Roboto";
-}
-
-.section-4 h5 {
+.section-4 h4 {
     padding-bottom: 3% !important;
 }
 
@@ -187,7 +190,6 @@ p {
 }
 
 .section-4 img {
-    /* height: 10%; */
     height: 56px;
 }
 
@@ -211,18 +213,16 @@ p {
 
 .section-6 h3 {
     color: var(--dark-grey);
-    font-family: "Ubuntu";
     font-size: 48px;
     font-weight: 900;
 }
 
-.section-6 h4 {
+.section-6 h5 {
     font-family: "Playfair Display";
     font-size: 36px;
 }
 
-.section-6 h5 {
-    font-family: "Open Sans";
+.section-6 h6 {
     font-size: 14px;
     font-weight: 600;
 }
@@ -238,7 +238,6 @@ p {
 
 footer {
     background-color: var(--dark-grey);
-    
     font-family: "Open Sans";
     font-size: 12px;
     display: flex;
