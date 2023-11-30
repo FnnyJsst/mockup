@@ -219,6 +219,17 @@ p {
     font-weight: 600;
 }
 
+/* SECTION 7  */
+
+.section-7 {
+    /* width: 100% !important; 
+    height: 75% !important; */
+}
+
+.section-7 .container {
+    width: 100%;
+}
+
 /* FOOTER */
 
 footer {
