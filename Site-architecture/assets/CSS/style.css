@@ -31,6 +31,14 @@
     src: url("/assets/fonts/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 
+@font-face {
+    font-family: "Playfair Display";
+    src: url("/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+p {
+    font-family: "Open Sans";
+}
 
 /* NAVBAR */
 
@@ -66,7 +74,6 @@
 }
 
 .section-1 p {
-    font-family: "Open sans";
     font-size: 24px;
     color: var(--dark-grey);
     margin-bottom: 0%;
@@ -76,10 +83,6 @@
     background-color: var(--light-grey);
 }
 
-/* .content {
-    background-color: #EAEAEC;
-    height: 100% !important;
-} */
 
 .architecture-img {
     width: 100%;
@@ -104,7 +107,6 @@
 }
 
 .section-2 p {
-    font-family: "Open Sans";
     font-size: 15px;
     font-weight: 300!;
     /* margin-bottom: 0%; */
@@ -133,6 +135,7 @@
 
 /* SECTION 3 */
 
+
 .section-3 #h2-container {
     height: 50% !important;
 }
@@ -146,7 +149,6 @@
 }
 
 .section-3 p {
-    font-family: "Open Sans";
     font-size: 16px;
     /* Impossible de régler le padding avec bootstrap :  */
     padding-left: 10% !important;
@@ -155,6 +157,11 @@
 .section-3 .container {
     width: 100%;
 }
+
+/* .section-3-card {
+    margin-left: 15% !important;
+
+} */
 
 #section-3-row {
     margin-top: 10% !important;
@@ -172,6 +179,10 @@
     margin-bottom: 5% !important;
 }
 
+.section-4 .row {
+    margin-left: 10% !important;
+}
+
 .section-4 h2 {
     font-family: "Ubuntu";
     font-size: 72px;
@@ -186,7 +197,6 @@
 }
 
 .section-4 p {
-    font-family: "Open Sans";
     font-size: 16px;
 }
 
@@ -195,13 +205,55 @@
     height: 56px;
 }
 
-#sample-text {
-    padding-top: 3% !important;
-}
 
 /* SECTION 5 */
 
 .section-5 {
     background-image: url(/assets/images/pexelsphoto3366940.jpeg);
+    background-position: center bottom;
+    height: 720px;
 }
+
+.section-5 p {
+    color: white;
+    font-size: 20px;
+    margin-right: 10% !important;
+    font-weight: 500;
+}
+
+/* SECTION 6 */
+
+.section-6 h3 {
+    color: var(--dark-grey);
+    font-family: "Ubuntu";
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section-6 h4 {
+    font-family: "Playfair Display";
+    font-size: 36px;
+}
+
+.section-6 h5 {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: var(--dark-grey);
+    color: white;
+    font-family: "Open Sans";
+    font-size: 12,8px;
+}
+
+.footer-text {
+    white-space: nowrap;
+}
+
+
+
 
