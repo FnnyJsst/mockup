@@ -59,6 +59,11 @@ p {
     height: 80% !important;
 }
 
+.section-1 .content {
+    padding-left: 10% !important;
+    padding-bottom: 10% !important;
+}
+
 .section-1 h1 {
     font-family: "Ubuntu";
     color: var(--dark-grey);
@@ -124,7 +129,7 @@ p {
 #button-learn-more-2 {
     border: 2px solid black;
     border-radius: 0%;
-    width: 20%;
+    min-width: 20%;
     font-weight: 600;
     
 }
@@ -152,6 +157,9 @@ p {
 }
 
 /* SECTION 4 */
+.section-4 {
+    background-color: black !important;
+}
 
 #section-4-container {
     margin-bottom: 5% !important;
@@ -221,10 +229,6 @@ p {
 
 /* SECTION 7  */
 
-.section-7 {
-    /* width: 100% !important; 
-    height: 75% !important; */
-}
 
 .section-7 .container {
     width: 100%;
