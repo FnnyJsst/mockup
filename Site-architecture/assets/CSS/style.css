@@ -223,13 +223,24 @@ p {
 
 footer {
     background-color: var(--dark-grey);
-    color: white;
+    
     font-family: "Open Sans";
-    font-size: 12,8px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-text {
     white-space: nowrap;
+    height: 5rem;
+}
+
+footer p {
+    color: white;
+}
+
+.link {
+    color: #ACCBE9;
 }
 
 
