@@ -14,6 +14,7 @@
 :root {
     --dark-grey: #545C66;
     --light-grey: #EAEAEC;
+    --light-blue: #ACCBE9;
 }
 
 /* FONTS */
@@ -38,8 +39,19 @@
     src: url("/assets/fonts/PlayfairDisplay-VariableFont_wght.ttf");
 }
 
+h1 {
+    color: var(--dark-grey);
+    font-size: 72px;
+}
+
 h1, h3 {
     font-family: "Ubuntu";
+}
+
+h2 {
+    color: var(--dark-grey);
+    font-size: 72px;
+    padding-top: 20% !important;
 }
 
 h2, h4 {
@@ -48,49 +60,40 @@ h2, h4 {
 
 h5 {
     font-family: "Playfair Display";
+    font-size: 36px;
 }
 
 p, h6 {
     font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600;
 }
 
-/* NAVBAR */
+#button-learn-more, #button-learn-more-2 {
+    font-family: "Open Sans";
+    border-radius: 0%;
+}
 
+
+/* NAVBAR */
 .logo {
     width: 55%;
     margin-left: 50% !important;
 }
 
 /* SECTION 1 */
-
-.col-md-6 {
-    padding: 0%;
-}
-
 .section-1 article {
     height: 80% !important;
 }
 
 .section-1 .content {
     padding-left: 10% !important;
-    padding-bottom: 10% !important;
-}
-
-h1 {
-    color: var(--dark-grey);
-    font-size: 72px;
-}
-
-.section-1 h2 {
-    font-size: 20px;
-    letter-spacing: 4px;
-    padding-top: 20% !important;
 }
 
 .section-1 p {
     font-size: 24px;
     color: var(--dark-grey);
-    margin-bottom: 0%;
+    margin-right: 15% !important;
 }
 
 #section-1-row {
@@ -104,10 +107,8 @@ h1 {
 }
 
 #button-learn-more {
-    border-radius: 0%;
-    width: 28%;
+    width: 35%;
     background-color: var(--dark-grey);
-    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 3px;
@@ -137,8 +138,8 @@ h1 {
 
 #button-learn-more-2 {
     border: 2px solid black;
-    border-radius: 0%;
-    min-width: 20%;
+    min-width: 30% !important;
+
     font-weight: 600;
     
 }
@@ -164,6 +165,12 @@ h1 {
     margin-top: 10% !important;
 }
 
+#section-3 .img-fluid {
+    max-width: 100%;
+    height: 100% !important;
+    object-fit: cover;
+}
+
 /* SECTION 4 */
 .section-4 {
     background-color: black !important;
@@ -181,10 +188,6 @@ h1 {
     font-size: 72px;
 }
 
-.section-4 h4 {
-    padding-bottom: 3% !important;
-}
-
 .section-4 p {
     font-size: 16px;
 }
@@ -195,7 +198,6 @@ h1 {
 
 
 /* SECTION 5 */
-
 .section-5 {
     background-image: url(/assets/images/pexelsphoto3366940.jpeg);
     background-position: center bottom;
@@ -205,8 +207,9 @@ h1 {
 
 .section-5 p {
     font-size: 20px;
+    width: 48%;
+    margin-left: 45% !important;
     margin-right: 10% !important;
-    font-weight: 500;
 }
 
 /* SECTION 6 */
@@ -216,36 +219,33 @@ h1 {
     font-size: 48px;
     font-weight: 900;
 }
+   
 
-.section-6 h5 {
-    font-family: "Playfair Display";
-    font-size: 36px;
+.section-6 h6 p {
+    margin-left: 6% !important;
+    margin-right: 6% !important;
 }
 
-.section-6 h6 {
-    font-size: 14px;
-    font-weight: 600;
+.section-6-col {
+    padding: 6% !important;
 }
 
 /* SECTION 7  */
-
-
 .section-7 .container {
     width: 100%;
 }
 
-/* FOOTER */
+.section-7 img {
+    min-height: 340px;
+}
 
+/* FOOTER */
 footer {
     background-color: var(--dark-grey);
-    font-family: "Open Sans";
     font-size: 12px;
-    display: flex;
-    justify-content: center;
 }
 
 .footer-text {
-    white-space: nowrap;
     height: 5rem;
 }
 
@@ -254,7 +254,7 @@ footer p {
 }
 
 .link {
-    color: #ACCBE9;
+    color: var(--light-blue);
 }
 
 
